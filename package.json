@@ -1,0 +1,8 @@
+{
+  "name": "crypto-analysis",
+  "version": "1.0.0",
+  "dependencies": {
+    "ccxt": "^2.4.76",
+    "chart.js": "^3.7.0"
+  }
+}
