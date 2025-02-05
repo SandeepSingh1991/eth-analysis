@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 });
 
 async function fetchData(coin) {
- const url = `https://crypto-app.onrender.com/ohlcv?coin=${coin}`;
+ const url = `https://eth-analysis.onrender.com/ohlcv?coin=${coin}`;
     
     try {
         const response = await fetch(url);
