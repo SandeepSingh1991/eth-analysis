@@ -3,14 +3,40 @@
 <head>
     <title>ETH Analysis (IST)</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
     <div class="container">
         <h1>ETH Price Analysis (11 PM IST to 8 AM IST)</h1>
-        <div id="results">
-            <p>Max Up: $<span id="max-up">Loading...</span></p>
-            <p>Max Down: $<span id="max-down">Loading...</span></p>
-            <p>Last Updated: <span id="last-updated">Loading...</span></p>
+        
+        <!-- Filters -->
+        <div class="filters">
+            <label for="date-filter">Filter by Date:</label>
+            <input type="text" id="date-filter" placeholder="Search date...">
+        </div>
+
+        <!-- Table -->
+        <table id="data-table">
+            <thead>
+                <tr>
+                    <th>Start Date</th>
+                    <th>Start Price</th>
+                    <th>End Date</th>
+                    <th>End Price</th>
+                    <th>Max Up</th>
+                    <th>Max Down</th>
+                    <th>Concat Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data will be populated here -->
+            </tbody>
+        </table>
+
+        <!-- Charts -->
+        <div class="charts">
+            <canvas id="max-up-chart"></canvas>
+            <canvas id="max-down-chart"></canvas>
         </div>
     </div>
     <script src="app.js"></script>
