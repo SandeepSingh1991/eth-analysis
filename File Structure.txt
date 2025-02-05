@@ -1,0 +1,7 @@
+eth-analysis/
+│
+├── index.html
+├── styles.css
+├── app.js
+├── data.json
+└── assets/ (for Bootstrap and Chart.js)
