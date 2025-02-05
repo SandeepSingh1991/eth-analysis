@@ -1,7 +1,10 @@
-eth-analysis/
-│
-├── index.html
-├── styles.css
-├── app.js
-├── data.json
-└── assets/ (for Bootstrap and Chart.js)
+crypto-live-dashboard/
+│── index.html         # Main webpage
+│── styles.css         # Styling for UI
+│── script.js          # JavaScript for fetching & visualizing data
+│── utils.js           # Helper functions (optional)
+│── data.json          # Local sample data (for testing)
+│── README.md          # Documentation
+│── assets/
+│   ├── logo.png       # Website logo (optional)
+│   ├── icons/         # UI icons
